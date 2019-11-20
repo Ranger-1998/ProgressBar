@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.czt.progressbar.ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        app:curValue="40"
+        app:maxValue="100"
+        app:progressBarColor="@color/colorPrimary"
+        app:progressBeginText="下载并安装"
+        app:progressPauseText="等待下载中"
+        app:progressEndText="下载完成"
+        app:progressTextColor="#000"
+        app:progressNumberTextColor="#000"
+        app:progressNumberTextSize="16sp"
+        app:progressTextSize="14sp"
+        app:numberPadding="4dp"
+        app:progressBarStrokeWidth="1dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_color"
+        android:text="Change color"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_text_color"
+        android:text="Change text color"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_number_color"
+        android:text="Change number color"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_text_size"
+        android:text="Change text size"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_number_size"
+        android:text="Change number size"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_stroke_width"
+        android:text="Change stroke width"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_change_max_val"
+        android:text="Change max value"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressBar">
+        <attr name="progressNumberTextSize" format="dimension"/>
+        <attr name="progressNumberTextColor" format="color"/>
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="progressBeginText" format="string"/>
+        <attr name="progressPauseText" format="string"/>
+        <attr name="progressEndText" format="string"/>
+        <attr name="progressBarColor" format="color"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="curValue" format="integer"/>
+        <attr name="numberPadding" format="dimension"/>
+        <attr name="progressBarStrokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
